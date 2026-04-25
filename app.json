@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "upao-app",
+    "slug": "upao-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "light",
+
+    "scheme": "upaoapp",
+
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+
+    "ios": {},
+
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#0A1F44"
+      },
+      "package": "com.upao.aulavirtual"
+    },
+
+    "web": {},
+
+    "plugins": [
+      "expo-router",
+      "expo-asset"
+    ]
+  }
+}
